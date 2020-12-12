@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+
+:root
+{
+    --primary-color: #F5E050; 
+    --secondary-color: #0A75BC;
+}
+
+header
+{
+    background-color: var(--primary-color);
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Ranchers', cursive;
+    word-spacing: 0.25rem;
+    letter-spacing: 0.05rem;
+    margin: 0px;
+}
+
+h1
+{
+    margin:0px;
+}
+
+body
+{
+    margin:0px;
+    background-image: url('/m4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.txt-box
+{
+    width: 35%;
+    float:left;
+    margin:auto;
+    padding-left:15%;
+    padding-top: 2rem;
+}
+
+.out-txt-box
+{
+    width: 35%;
+    float:right;
+    margin:auto;
+    padding-right: 15%;
+    padding-top: 2rem;
+}
+
+textarea
+{
+    width: 80%;
+    height: 15vh;
+    padding: 0.5rem;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 3px;
+    border-width: 2px;
+}
+
+#btn
+{
+  margin: auto;
+  width: 13%;
+  
+}
+
+#btn-translate
+{
+    margin: 0.8rem;
+    border :1.5px solid var(--secondary-color);
+    font-weight: 520;
+    padding:0.6rem;
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+#btn-translate:hover
+{
+    color: var(--secondary-color);
+    background-color: white;
+}
+
